@@ -1,5 +1,5 @@
 //alert para exibir a mensagem em um alert box
-alert('Bem vindo ao jogo!');
+alert('Bem vindo ao jogo, chute um número entre 0 e 100!');
 //criar uma varivavel com o nome numero secreto (let em java significa que é uma variavel)
 //criar pontos para evitar acoplamente
 let mathNumber = 100;
