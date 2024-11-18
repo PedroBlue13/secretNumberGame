@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>JS Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__conteudo">
+            <!-- Imagem inicial do robô -->
+            <img src="./img/robot.gif" alt="robô mergulhador" id="robotImage" class="container__imagem-robo" />
+            <div class="container__informacoes">
+                <div class="container__texto" id="textContainer">
+                    <h1>Você recebeu a missão de ajudar o <span class="container__texto-azul">Sonic!</span></h1>
+                    <h2>Ajude-o a salvar os bichinhos acertando o número secreto!</h2>
+                </div>
+                <div class="container_try">
+                    <label for="sonicNumber">Digite o número secreto:</label>
+                    <input type="number" id="sonicNumber" name="sonicNumber" placeholder="Digite um número">
+                    <button id="checkButton">Verificar</button>
+                </div>
+                <div id="feedback">
+                    <p id="resultMessage"></p>
+                    <p id="attemptsMessage"></p>
+                </div>
+            </div>
+    
+            <!-- Contêiner de Vitória (inicialmente oculto) -->
+            <!-- <div hidden class="container__win">
+                <div class="container__texto">
+                    <h1>Parabéns, você ajudou o <span class="container__texto-azul">Sonic!</span></h1>
+                    <h1>a virar Super</h1>
+                    <h2>AGORA ELE VAI SALVAR O MUNDO TODO!</h2>
+                    
+                    <img id="robotImageWin" src="./img/robot.gif" alt="Robô comemorando" class="container__imagem-robo" />
+                    <div id="feedback">
+                        <p id="resultMessage"></p>
+                        <p id="attemptsMessage"></p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="app.js" defer></script> 
+</body>
+
+</html>

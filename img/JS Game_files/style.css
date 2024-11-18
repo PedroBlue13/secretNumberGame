@@ -1,0 +1,14 @@
+* {
+    background-color: black;
+    background-image: url('./img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+.container__imagem-robo {
+    width: 70%; /* Ocupa 70% do espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
